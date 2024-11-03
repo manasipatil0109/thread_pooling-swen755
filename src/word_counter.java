@@ -7,6 +7,7 @@ import java.util.concurrent.*;
 public class word_counter {
     private static final int NUM_THREADS = 10;
 
+    @SuppressWarnings("unchecked")
     public static void main(String[] args) throws IOException, InterruptedException, ExecutionException {
         String directoryPath = "docs/"; // Replace with the path to your directory containing TXT files
         String resultFilePath = "result/count.txt"; // Replace with the path to your result file
