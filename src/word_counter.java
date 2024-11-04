@@ -9,8 +9,8 @@ public class word_counter {
 
     @SuppressWarnings("unchecked")
     public static void main(String[] args) throws IOException, InterruptedException, ExecutionException {
-        String directoryPath = "docs/"; // Replace with the path to your directory containing TXT files
-        String resultFilePath = "result/count.txt"; // Replace with the path to your result file
+        String directoryPath = "docs/";
+        String resultFilePath = "result/count.txt";
 
         long startTime = System.currentTimeMillis();
 
